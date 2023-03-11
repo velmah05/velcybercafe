@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .tab{color: black;}
+        .tab:hover{color: blue; text-decoration:underline;}
+          
+        </style>
+
+    <nav class="nav text-dark justify-content-end">
+        <a class="nav-link tab fw-bold text-decoration-underline" href="index.html">Home</a>
+        <a class="nav-link tab" href="Services">Services</a>
+        <a class="nav-link tab"href="about">About us</a>
+       
+    </nav>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        .stir{
+            background-color: darkgray darkgoldenrod;
+        }
+        .stir:hover{
+            font-size: 30px;
+        }
+    </style>
+   
+    <div  class=" stir item  container-fluid  fs-1">
+        <h1 >Contact Us Through:</h1>
+        <p><b>+254793949777</b></p>
+        <p><b>+254796214976</b></p>
+        <p><b>+254104070454</b></p>
+        <a href="email" class="text-danger ">velcybercafe@gmail.com</a> <br>
+        <a href="email" class="text-danger ">info@velcybercafe.com</a>
+        <p>you can also find us on social media at <strong class="text-dark bg-primary">vel cyber cafe</strong></p>
+    </div>
+</body>
+
+</html>

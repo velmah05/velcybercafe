@@ -1,0 +1,335 @@
+#myheader{
+  font-size: 100px;
+ text-shadow: 8px 8px 12px white;
+ margin-right: 200px;
+ margin-left: 200px;
+  background-color: lightcyan;
+color:black;
+  text-align: center;
+ font-weight: bolder;
+ margin-top: 50px;
+}
+
+img {
+  border-radius: 40px;
+  justify-self: start;
+  width: 300px;
+
+}
+
+.photo {
+  border-radius: 20px;
+  width: 660px;
+  height: 450px;
+  position: relative;
+  box-shadow: 50px black;
+}
+.photo:hover{
+  filter: blur(1px);
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+#header {
+  text-align: center;
+  margin-top: 6px;
+  text-decoration: underline;
+  text-decoration-color: rgb(106, 106, 219);
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: 3px 3px 6px;
+}
+
+.term{
+  margin-top: 4px;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: 3px 3px 6px lightslategrey;
+}
+   
+.item {
+  text-shadow: 1px 1px 3px;
+}
+
+@keyframes slideinleft{
+  from{
+transform: translateX(-300px) 
+  }
+  to{
+    transform: translateX(0) 
+  }
+}
+.heading{
+  animation-name:slideinleft;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-delay: 5s;
+  animation-iteration-count:1;
+  animation-direction:normal ;
+  animation-fill-mode:none ;
+}
+
+@keyframes slideinright{
+  from{
+transform: translateX(600px) 
+  }
+  to{
+    transform: translateX(0) 
+  }
+}
+.left{
+  animation-name:slideinright;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 3s;
+  animation-iteration-count:1;
+  animation-direction:normal ;
+  animation-fill-mode:none ;
+}
+
+
+@keyframes zoom{
+  from{
+transform: translateX(0) 
+  }
+  to{
+    transform: translateX(100%) 
+  }
+}
+.zoom{
+  animation-name:zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count:1;
+  animation-fill-mode:none ;
+}
+
+@keyframes slideindown{
+  from{
+transform: translateY(-300px) 
+  }
+  to{
+    transform: translateY(0) 
+  }
+}
+.down{
+  animation-name:slideindown;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 4s;
+  animation-iteration-count:1;
+  animation-direction:normal ;
+  animation-fill-mode:none ;
+}
+
+
+
+@keyframes slideinup{
+  from{
+transform: translateY(300px) 
+  }
+  to{
+    transform: translateY(0) 
+  }
+}
+
+.up{
+  animation-name:slideinup;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+  animation-iteration-count:1;
+  animation-direction:normal ;
+  animation-fill-mode:none ;
+}
+  
+@keyframes slideinup{
+  from{
+transform: translateY(300px) 
+  }
+  to{
+    transform: translateY(0) 
+  }
+}
+
+.upon{
+  animation-name:slideinup;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count:1;
+  animation-direction:normal ;
+  animation-fill-mode:none ;
+}
+  
+@keyframes slideinup{
+  from{
+transform: translateY(300px) 
+  }
+  to{
+    transform: translateY(0) 
+  }
+}
+
+.upon-2{
+  animation-name:slideinup;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+animation-iteration-count: infinite;
+  animation-direction:normal ;
+  animation-fill-mode:none ;
+}
+
+@keyframes rotate{
+  from{
+transform: rotate(0) 
+  }
+  to{
+    transform:rotate(360deg) 
+  }
+}
+.rotate{
+  animation-name: rotate;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+animation-delay: 5s;
+  transform-origin: top;
+}
+.rotate:hover{
+  animation-timing-function:ease-in;
+  transform: rotate(5deg);
+}
+
+.sample{
+  animation-name:slideinleft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count:1;
+  animation-direction:normal ;
+  animation-fill-mode:none ;
+}
+.demo {
+  
+  height: 120px;
+  animation-name: grow;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+
+}
+
+@keyframes grow {
+  0% {
+    font-size: 0px;
+  }
+  100% {
+    font-size: 100px;
+  }
+}
+.start {
+  
+  height: 16px;
+  animation-name: grow;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+
+}
+
+@keyframes grow {
+  0% {
+    font-size: 0px;
+  }
+  100% {
+    font-size: 16px;
+  }
+}
+
+.mode{
+  animation-name:slideinleft;
+  animation-duration: 1s;
+  animation-timing-function:ease-out;
+  animation-delay: 1s;
+  animation-iteration-count:1;
+  animation-direction:normal;
+  animation-fill-mode:none ;
+
+}
+
+
+.Text-Box{
+  animation: slide-up 4s;
+  animation-delay: 2s;
+}
+@keyframes slide-up{
+  from{
+    opacity: 0.6;
+    line-height:100px;
+  }
+  to{
+    line-height: 42px;
+    opacity: 2;
+  }
+}
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 0px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+    
+
+}
+
+.snow{
+  box-shadow: 10px 10px 6px grey ;
+
+}
+
+
+        /* Add padding BETWEEN each column */
+        .row,
+        .row>.column {
+            padding: 32px;
+                  }
+
+        /* Create four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Content */
+        .content {
+            background-color:lightgrey;
+           padding: 10px;
+        }
+   
+.cont{
+  background-color: lightgray;
+}
+

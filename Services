@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our services</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    
+
+    </style>
+    <nav class="nav text-dark justify-content-end">
+        <a class="nav-link text fw-bold text-decoration-underline" href="index.html">Home</a>
+        <a class="nav-link text" href="about">About us</a>
+        <a class="nav-link text" href="contacts">Contacts</a>
+       
+    </nav>
+    <div class="container">
+        <h1 id="header" class=" text-bolder bg-info text-uppercase">products and services</h1>
+        <div class=" row fs-2">
+            <div class=" heading col-5 bg-primary">
+                <h1 class="text-decoration-underline">Products</h1>
+                <ul>
+                    <li>storage devices</li>
+                    <li>Desktops</li>
+                    <li>photocopiers</li>
+                    <li>printers</li>
+                    <li>binding machines</li>
+                    <li>Ream papers</li>
+                    <li>laminators</li>
+                </ul>
+            </div>
+            <div class="  col-6 bg-secondary">
+                <h1 class="text-decoration-underline">Services</h1>
+                <ul>
+                    <li>web design</li> 
+                    <li> web hosting</li>
+                    <li> domain name registration</li>
+                    <li> graphic design</li>
+                    <li> computer/laptop repair and maintenance</li> 
+                    <li>KRA recovery</li>
+                    <li>lamination</li>
+                    <li>binding</li>
+                   
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
